@@ -6,9 +6,9 @@
 
 ## 预览
 
-![预览图片](http://downloads.haomo-tech.com/taro/{{component}}.png)
+![预览图片](http://downloads.haomo-tech.com/taro/hm-visits-card.png)
 
-[在线效果预览](http://template.taro.haomo-tech.com/#/pages/test-component/{{component}})
+[在线效果预览](http://template.taro.haomo-tech.com/#/pages/test-component/hm-visits-card)
 
 更多毫末科技的Taro跨端模板，请见[毫末科技Taro跨端模板](https://haomo-tech.com/sale.html)
 
@@ -16,11 +16,11 @@
 
 * [Taro物料市场](https://taro-ext.jd.com/plugin/view/)
 
-* [npm包](https://www.npmjs.com/package/{{projectName}})
+* [npm包](https://www.npmjs.com/package/hm-taro-visits-card)
 
-* [github地址](https://github.com/haomo-studio/{{projectName}})
+* [github地址](https://github.com/haomo-studio/hm-taro-visits-card)
 
-* [gitee地址](https://gitee.com/haomo/{{projectName}})
+* [gitee地址](https://gitee.com/haomo/hm-taro-visits-card)
 
 毫末科技将长期迭代本组件。需要技术支持，请进钉钉群：
 
@@ -28,7 +28,7 @@
 
 ## 概述
 
-毫末Taro{{componentName}}组件。支持H5/小程序(微信、支付宝、头条、百度、QQ)/App；组件可自适应各种屏幕大小的手机。
+毫末Taro毫末访问量卡片组件。支持H5/小程序(微信、支付宝、头条、百度、QQ)/App；组件可自适应各种屏幕大小的手机。
 
 ## 使用
 
@@ -36,7 +36,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Button } from '@tarojs/components'
 
-import {{componentUpperCamelCase}} from '../src/components/hm/{{component}}/index.jsx'
+import HmVisitsCard from '../src/components/hm/hm-visits-card/index.jsx'
 
 export default class Index extends Component {
 
@@ -51,13 +51,13 @@ export default class Index extends Component {
   componentDidHide () { }
 
   config = {
-    navigationBarTitleText: '毫末Taro{{componentName}}组件'
+    navigationBarTitleText: '毫末Taro毫末访问量卡片组件'
   }
 
   render () {
     return (
       <View className='index'>
-        <{{componentUpperCamelCase}}/>
+        <HmVisitsCard/>
       </View>
     )
   }
