@@ -68,14 +68,20 @@ export default class Index extends Component {
 
 | 属性名        | 类型     | 默认值 | 说明                                                                       |
 |-----------   |---------|--------|----------------------------------------------------------------------------|
-| options        | Object  | -      | 卡片属性                                                                   |
+| options      | Object  | -      | 卡片属性                                                                   |
 
 options对象各个属性说明如下：
 
 | 属性名        | 类型     | 默认值 | 说明                                                                       |
 |-----------   |---------|--------|----------------------------------------------------------------------------|
-| title        | String  | -      | 标题文字                                                                   |
-| img          | String  | -  | 新闻图片                                                     |
+| text        | String  | -      | 标题文字                                                                   |
+| img          | String  | -      | 图片                                                     |
+| jiantouimg          | String  | -      | 箭头图片                                                     |
+| num          | String  | -      | 百分比数字                                                     |
+| nums          | String  | -      | 数量                                                     |
+| img          | String  | -      | 图片                                                     |
+| unit          | String  | -      | 单位                                                     |
+| shopLogo          | String  | -      | logo图片                                                     |
 
 ## 事件说明
 
