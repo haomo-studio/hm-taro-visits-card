@@ -14,12 +14,12 @@ class HmVisitsCard extends Component {
     super(props);
     let defaultState = {
       text: '日常访问',
-      img,
-      jiantouimg,
+      img: img,
+      jiantouimg: jiantouimg,
       num: '+3.49%',
       nums: '178080',
       unit: '个',
-      shopLogo
+      shopLogo: shopLogo
     };
     this.state = Object.assign(defaultState, JSON.parse(JSON.stringify(props)));
   }
